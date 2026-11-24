@@ -36,7 +36,8 @@ jobs:
         run: |
           git config user.name "arknet-bot"
           git config user.email "arknet-bot@users.noreply.github.com"
-          git add nodes_full.json shadowrocket_anytls_live.txt sub_live_base64.txt nodes_table.md
+          git add nodes_full.json shadowrocket_anytls_live.txt sub_live_base64.txt \
+                  clash_config.yaml flclash_config.yaml nodes_table.md
           if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
             echo "内容没变，跳过推送"
@@ -50,9 +51,7 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         run: |
           sleep 15
-          for f in sub_live_base64.txt shadowrocket_anytls_live.txt nodes_table.md nodes_full.json; do
+          for f in sub_live_base64.txt shadowrocket_anytls_live.txt clash_config.yaml flclash_config.yaml nodes_table.md nodes_full.json; do
             code=$(curl -s -m 25 -o /dev/null -w "%{http_code}" "https://purge.jsdelivr.net/gh/qiami66/arknet@main/$f" || echo ERR)
             echo "purge $f -> $code"
           done
-          echo "验证："
-          curl -s -m 25 "https://cdn.jsdelivr.net/gh/qiami66/arknet@main/nodes_table.md" | head -5
