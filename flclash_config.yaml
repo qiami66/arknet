@@ -1,0 +1,223 @@
+# FlClash / mihomo 配置
+mode: rule
+log-level: info
+ipv6: false
+
+dns:
+  enable: true
+  ipv6: false
+  listen: 0.0.0.0:1053
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  fallback:
+    - 8.8.8.8
+    - 1.1.1.1
+
+proxies:
+  - name: "美国D1"
+    type: anytls
+    server: noded1.gykisjdcth.top
+    port: 10021
+    password: "a793fd45-2601-4fc5-abdf-e21cacd535ab"
+    sni: "noded1.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国F1"
+    type: anytls
+    server: noded6.gykisjdcth.top
+    port: 10021
+    password: "58c858c2-a605-40ae-b6ba-fb4ecf489584"
+    sni: "noded6.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国G1"
+    type: anytls
+    server: noded7.gykisjdcth.top
+    port: 10021
+    password: "4eff85ad-9fc9-418c-bee5-a553283acfd9"
+    sni: "noded7.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国H1"
+    type: anytls
+    server: noded12.gykisjdcth.top
+    port: 10021
+    password: "c860372d-8bd8-4117-b03d-84855f0cc3cf"
+    sni: "noded12.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国D2"
+    type: anytls
+    server: noded2.gykisjdcth.top
+    port: 10021
+    password: "8c661ef5-32fe-4d9b-8799-dbbe680da5e5"
+    sni: "noded2.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国G2"
+    type: anytls
+    server: noded8.gykisjdcth.top
+    port: 10021
+    password: "6383f5c8-b553-4666-9e81-1ead917caff3"
+    sni: "noded8.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国H2"
+    type: anytls
+    server: noded13.gykisjdcth.top
+    port: 10021
+    password: "b035969d-7c10-48c4-a387-c7ca5853d8f4"
+    sni: "noded13.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国D3"
+    type: anytls
+    server: noded3.gykisjdcth.top
+    port: 10021
+    password: "00f72cd1-2be2-430f-a4a6-cc481a634a3e"
+    sni: "noded3.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国G3"
+    type: anytls
+    server: noded9.gykisjdcth.top
+    port: 10021
+    password: "99dfa345-91b2-4281-ba4d-ab8881f61ceb"
+    sni: "noded9.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国H3"
+    type: anytls
+    server: noded14.gykisjdcth.top
+    port: 10021
+    password: "88f3e31d-00a6-4447-af1e-a3f8a45d8dc3"
+    sni: "noded14.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国D4"
+    type: anytls
+    server: noded4.gykisjdcth.top
+    port: 10021
+    password: "4701e7a1-5612-4f7f-a4fd-5c117c748db2"
+    sni: "noded4.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国G4"
+    type: anytls
+    server: noded10.gykisjdcth.top
+    port: 10021
+    password: "e325189d-b263-4cfb-b662-a6a1c606209c"
+    sni: "noded10.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国H4"
+    type: anytls
+    server: noded15.gykisjdcth.top
+    port: 10021
+    password: "ad9acca4-4b69-4f24-a816-c30e1d906d0d"
+    sni: "noded15.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国D5"
+    type: anytls
+    server: noded5.gykisjdcth.top
+    port: 10021
+    password: "65811ac1-157c-4953-b834-787d66fd7a41"
+    sni: "noded5.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国G5"
+    type: anytls
+    server: noded11.gykisjdcth.top
+    port: 10021
+    password: "7091317c-0e87-4506-856b-53ac5c3afe63"
+    sni: "noded11.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+  - name: "美国H5"
+    type: anytls
+    server: noded16.gykisjdcth.top
+    port: 10021
+    password: "2bc988f7-12ff-4c35-a681-9ac9772ac4e8"
+    sni: "noded16.gykisjdcth.top"
+    client-fingerprint: chrome
+    skip-cert-verify: false
+    udp: true
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "自动选择"
+      - "美国D1"
+      - "美国F1"
+      - "美国G1"
+      - "美国H1"
+      - "美国D2"
+      - "美国G2"
+      - "美国H2"
+      - "美国D3"
+      - "美国G3"
+      - "美国H3"
+      - "美国D4"
+      - "美国G4"
+      - "美国H4"
+      - "美国D5"
+      - "美国G5"
+      - "美国H5"
+  - name: "自动选择"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+    lazy: false
+    proxies:
+      - "美国D1"
+      - "美国F1"
+      - "美国G1"
+      - "美国H1"
+      - "美国D2"
+      - "美国G2"
+      - "美国H2"
+      - "美国D3"
+      - "美国G3"
+      - "美国H3"
+      - "美国D4"
+      - "美国G4"
+      - "美国H4"
+      - "美国D5"
+      - "美国G5"
+      - "美国H5"
+  - name: "全球直连"
+    type: select
+    proxies:
+      - DIRECT
+      - "PROXY"
+
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
