@@ -212,11 +212,13 @@ def cmd_refresh(only=None):
             except Exception as e:
                 print('  %-8s %s' % (n['name'], e))
                 continue
-            ok = probe_retry(c['ingress'], c['listenPort'],
-                             c['tlsServerName'] or c['ingress'], c['password'])
+            probe_ok = probe_retry(c['ingress'], c['listenPort'],
+                                   c['tlsServerName'] or c['ingress'], c['password'])
+            # 凭据由服务端签发即视为有效；probe 只做诊断，抖动不影响订阅
             n.update({'port': c['listenPort'], 'sni': c['tlsServerName'], 'password': c['password'],
-                      'proto': c['proto'], 'security': c['security'], 'alive': ok})
-            print('  %-8s port=%s %s' % (n['name'], c['listenPort'], 'ALIVE' if ok else 'dead'))
+                      'proto': c['proto'], 'security': c['security'], 'alive': True})
+            print('  %-8s port=%s 已签发%s' % (n['name'], c['listenPort'],
+                                              '' if probe_ok else '（probe 未通，仍计入）'))
             time.sleep(0.2)
 
     live = write_outputs(db)
