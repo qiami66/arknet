@@ -1,0 +1,6 @@
+{
+ "host": "103.236.88.52",
+ "port": 34381,
+ "user": "root",
+ "remote": "/opt/arknet/nodes_full.json"
+}
