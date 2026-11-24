@@ -2,9 +2,11 @@ name: arknet refresh
 
 on:
   schedule:
-    # 每 6 小时一次（UTC 时间，整点）
     - cron: '0 */6 * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 concurrency:
   group: arknet
@@ -21,25 +23,18 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 安装依赖
-        run: pip install --quiet paramiko
+      - name: 还原账号
+        env:
+          ACC: ${{ secrets.ACCOUNTS_JSON }}
+        run: python -c "import os,pathlib; pathlib.Path('accounts.json').write_text(os.environ['ACC'],encoding='utf-8')"
 
       - name: 刷新线路
         run: python refresh_all.py
 
-      - name: 推送到云服务器
-        env:
-          CLOUD_PASSWORD: ${{ secrets.CLOUD_PASSWORD }}
-        run: python sync.py --no-refresh
-
-      - name: 保存结果（万一推送失败还能下载）
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: nodes-${{ github.run_number }}
-          path: |
-            nodes_full.json
-            shadowrocket_anytls_live.txt
-            sub_live_base64.txt
-            nodes_table.md
-          retention-days: 7
+      - name: 提交结果
+        run: |
+          git config user.name "arknet-bot"
+          git config user.email "arknet-bot@users.noreply.github.com"
+          git add nodes_full.json shadowrocket_anytls_live.txt sub_live_base64.txt nodes_table.md
+          git commit -m "refresh $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "no change"
+          git push
