@@ -1,0 +1,45 @@
+name: arknet refresh
+
+on:
+  schedule:
+    # 每 6 小时一次（UTC 时间，整点）
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: arknet
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install --quiet paramiko
+
+      - name: 刷新线路
+        run: python refresh_all.py
+
+      - name: 推送到云服务器
+        env:
+          CLOUD_PASSWORD: ${{ secrets.CLOUD_PASSWORD }}
+        run: python sync.py --no-refresh
+
+      - name: 保存结果（万一推送失败还能下载）
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nodes-${{ github.run_number }}
+          path: |
+            nodes_full.json
+            shadowrocket_anytls_live.txt
+            sub_live_base64.txt
+            nodes_table.md
+          retention-days: 7
