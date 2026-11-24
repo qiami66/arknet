@@ -1,6 +1,6 @@
 | # | 名称 | 入口 | 端口 | SNI | 账号 | 状态 |
 |---|---|---|---|---|---|---|
-| 1 | 美国D1 | noded1.gykisjdcth.top | 10021 | noded1.gykisjdcth.top | ub0ohtkt8i | 失效 |
+| 1 | 美国D1 | noded1.gykisjdcth.top | 10021 | noded1.gykisjdcth.top | ub0ohtkt8i | 在线 |
 | 2 | 美国F1 | noded6.gykisjdcth.top | 10021 | noded6.gykisjdcth.top | uzdc1lm0n6 | 在线 |
 | 3 | 美国G1 | noded7.gykisjdcth.top | 10021 | noded7.gykisjdcth.top | uzdc1lm0n6 | 在线 |
 | 4 | 美国H1 | noded12.gykisjdcth.top | 10021 | noded12.gykisjdcth.top | uzdc1lm0n6 | 在线 |
