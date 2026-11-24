@@ -1,0 +1,6 @@
+cloud.local.json
+sync.log
+status.json
+__pycache__/
+*.pyc
+.DS_Store
