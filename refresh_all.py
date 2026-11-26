@@ -64,8 +64,10 @@ def probe_retry(host, port, sni, pw):
 
 
 def uri(n):
+    # 用 IP 直连，SNI 仍填域名：客户端不需要解析域名，绕开 DNS 污染/故障
+    host = n.get('publicIp') or n['ingress']
     q = urllib.parse.urlencode({'sni': n['sni'] or n['ingress'], 'insecure': '0'}, safe='')
-    return 'anytls://%s@%s:%s/?%s#%s' % (n['password'], n['ingress'], n['port'], q,
+    return 'anytls://%s@%s:%s/?%s#%s' % (n['password'], host, n['port'], q,
                                          urllib.parse.quote(n['name']))
 
 
@@ -77,7 +79,7 @@ def proxy_block(n, indent='  '):
     return [
         '%s- name: %s' % (indent, q(n['name'])),
         '%s  type: anytls' % indent,
-        '%s  server: %s' % (indent, n['ingress']),
+        '%s  server: %s' % (indent, n.get('publicIp') or n['ingress']),
         '%s  port: %s' % (indent, n['port']),
         '%s  password: %s' % (indent, q(n['password'])),
         '%s  sni: %s' % (indent, q(n['sni'])),
@@ -216,7 +218,9 @@ def cmd_refresh(only=None):
                                    c['tlsServerName'] or c['ingress'], c['password'])
             # 凭据由服务端签发即视为有效；probe 只做诊断，抖动不影响订阅
             n.update({'port': c['listenPort'], 'sni': c['tlsServerName'], 'password': c['password'],
-                      'proto': c['proto'], 'security': c['security'], 'alive': True})
+                      'proto': c['proto'], 'security': c['security'], 'alive': True,
+                      'ingress': c.get('ingress') or n['ingress'],
+                      'publicIp': c.get('publicIp') or n.get('publicIp')})
             print('  %-8s port=%s 已签发%s' % (n['name'], c['listenPort'],
                                               '' if probe_ok else '（probe 未通，仍计入）'))
             time.sleep(0.2)
