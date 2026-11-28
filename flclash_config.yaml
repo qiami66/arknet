@@ -21,7 +21,7 @@ proxies:
     type: anytls
     server: 38.145.223.130
     port: 10022
-    password: "6d7f22ef-022d-48bf-81fa-59e61410f900"
+    password: "ecd62407-94f1-4f56-b334-405f7bf0765c"
     sni: "noded1.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -30,7 +30,7 @@ proxies:
     type: anytls
     server: 23.224.250.51
     port: 10022
-    password: "0754547b-afed-4e86-ad9b-b325bdca9a80"
+    password: "097ab211-2749-436a-a57a-8a6f61bd0078"
     sni: "noded6.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -39,7 +39,7 @@ proxies:
     type: anytls
     server: 185.173.225.34
     port: 10022
-    password: "0a24ea3f-d8e2-4065-bbdb-899927276800"
+    password: "e05bc9ae-1d8e-441e-8330-f3be013f0dbc"
     sni: "noded7.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -48,7 +48,7 @@ proxies:
     type: anytls
     server: 185.173.225.66
     port: 10022
-    password: "1a40df97-9454-4335-8603-a6d3ca9dc7e4"
+    password: "6b3bbd8c-94fb-48ae-834e-c851ad5817c9"
     sni: "noded12.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -57,7 +57,7 @@ proxies:
     type: anytls
     server: 38.145.223.131
     port: 10022
-    password: "7720f5de-3fad-4bf4-9bcd-f62e1d64535d"
+    password: "43c01b88-a9f8-4b72-89a0-0198f1e2a5d3"
     sni: "noded2.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -66,7 +66,7 @@ proxies:
     type: anytls
     server: 185.173.225.35
     port: 10022
-    password: "0ab6d5d9-12a4-4044-a9d3-308cf469a826"
+    password: "997983ec-9401-429e-80f0-73629eb9ef0b"
     sni: "noded8.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -75,7 +75,7 @@ proxies:
     type: anytls
     server: 185.173.225.67
     port: 10022
-    password: "15d915d1-96d7-48a4-8668-c3587e1b3fdc"
+    password: "d4569f19-9b8f-4ba8-9a93-44c7fe1293d8"
     sni: "noded13.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -84,7 +84,7 @@ proxies:
     type: anytls
     server: 38.145.223.132
     port: 10022
-    password: "592a7b11-b241-4b6b-a7f6-07466325edd1"
+    password: "d08e2431-502b-4e04-b7c9-69aeb51fbd2b"
     sni: "noded3.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -93,7 +93,7 @@ proxies:
     type: anytls
     server: 185.173.225.36
     port: 10022
-    password: "865e843d-1469-49f8-89dc-e3cb8ccb724a"
+    password: "4402c487-a6a5-4eec-b291-5e350bff99c6"
     sni: "noded9.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -102,7 +102,7 @@ proxies:
     type: anytls
     server: 185.173.225.68
     port: 10022
-    password: "44736863-eb62-4605-8b6a-78dcfaa9be46"
+    password: "da4048b1-32fb-4897-9cc8-9a22198a97b4"
     sni: "noded14.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -111,7 +111,7 @@ proxies:
     type: anytls
     server: 38.145.223.133
     port: 10022
-    password: "e71a4d57-34bc-4496-8661-9efd71baf8cb"
+    password: "b3b07ecb-ac86-4714-b776-c6819fc451ee"
     sni: "noded4.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -120,7 +120,7 @@ proxies:
     type: anytls
     server: 185.173.225.37
     port: 10022
-    password: "fd926b94-6575-4914-aed0-47d3c033dc49"
+    password: "2945829a-d35f-4944-8432-e1c46f55e36b"
     sni: "noded10.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -129,7 +129,7 @@ proxies:
     type: anytls
     server: 185.173.225.69
     port: 10022
-    password: "1b599280-9016-48a1-bfaf-cc5106ae2be3"
+    password: "df614225-14e1-4b79-8ddb-d5e63484bbef"
     sni: "noded15.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
     type: anytls
     server: 38.145.223.134
     port: 10022
-    password: "428c9677-117b-4607-b571-afcbad2c049e"
+    password: "23380a16-4799-49ee-ae85-1be9583321b7"
     sni: "noded5.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -147,7 +147,7 @@ proxies:
     type: anytls
     server: 185.173.225.38
     port: 10022
-    password: "0c88fca3-b74e-4619-8071-d5e9b249f392"
+    password: "c2caed9d-8edb-49dc-9e65-4a67c9bff567"
     sni: "noded11.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
@@ -156,7 +156,7 @@ proxies:
     type: anytls
     server: 185.173.225.70
     port: 10022
-    password: "f8a44483-e4ee-4313-9769-20a4816d1ef8"
+    password: "9250179f-e552-4ca4-a530-0544e67d2536"
     sni: "noded16.gykisjdcth.top"
     client-fingerprint: chrome
     skip-cert-verify: false
