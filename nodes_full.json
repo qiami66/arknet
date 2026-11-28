@@ -43,7 +43,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded1.gykisjdcth.top",
-   "password": "3b3ac02c-cdf6-4895-9607-963312e49954",
+   "password": "1dc7fdaa-5a0c-4908-a12a-ead58d6f6e89",
    "account": "ub0ohtkt8i",
    "alive": true
   },
@@ -57,7 +57,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded6.gykisjdcth.top",
-   "password": "60d086ab-7959-4ee3-83ff-0a243c8f9085",
+   "password": "79d88f3f-9fc6-4ee3-b63a-db1075769a64",
    "account": "uzdc1lm0n6",
    "alive": true
   },
@@ -71,7 +71,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded7.gykisjdcth.top",
-   "password": "707e598c-18c7-4ae5-a874-37e6a85e3c29",
+   "password": "7cdad643-6c6b-4b80-8f87-c2d7d21b846c",
    "account": "uzdc1lm0n6",
    "alive": true
   },
@@ -85,7 +85,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded12.gykisjdcth.top",
-   "password": "84fded0c-d072-4c33-8f1d-b8ede3f8d8d1",
+   "password": "8ff80dcf-74f6-40f2-8c7e-e83f950f320b",
    "account": "uzdc1lm0n6",
    "alive": true
   },
@@ -99,7 +99,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded2.gykisjdcth.top",
-   "password": "61c3b864-2664-4110-b763-b20970bf788a",
+   "password": "5c4c0e2e-6671-40ec-8f38-56a6dee222c8",
    "account": "uplie5c68bp",
    "alive": true
   },
@@ -113,7 +113,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded8.gykisjdcth.top",
-   "password": "39795af3-8874-4a79-8345-95791cbe560d",
+   "password": "d58868e2-bb44-4c2a-980d-f9c8a12238ee",
    "account": "uplie5c68bp",
    "alive": true
   },
@@ -127,7 +127,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded13.gykisjdcth.top",
-   "password": "c404b3f5-3f2b-4fe6-857a-6530beb8b720",
+   "password": "c7888e85-dd48-4abc-845a-4a7e3098b820",
    "account": "uplie5c68bp",
    "alive": true
   },
@@ -141,7 +141,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded3.gykisjdcth.top",
-   "password": "41f0227a-2e9c-4b45-9dd1-7b8dfe271e32",
+   "password": "7f80d157-9836-4520-a58a-ea59cf603657",
    "account": "u5gvtk9g50h",
    "alive": true
   },
@@ -155,7 +155,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded9.gykisjdcth.top",
-   "password": "591cdeb2-2e3a-4a45-94a8-a3a8427b0226",
+   "password": "a4fa6df2-9171-4d5f-9140-9a04e9b52f5e",
    "account": "u5gvtk9g50h",
    "alive": true
   },
@@ -169,7 +169,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded14.gykisjdcth.top",
-   "password": "01ccbcc7-e9a6-442a-b790-b3a211631f86",
+   "password": "cad675e6-793c-4fad-9e23-6b8039b797e7",
    "account": "u5gvtk9g50h",
    "alive": true
   },
@@ -183,7 +183,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded4.gykisjdcth.top",
-   "password": "2d2197fc-da6f-4b21-aef2-5d5ce5d1e99d",
+   "password": "7b9bd7ad-f1d0-45dc-8981-9d79419d2ed1",
    "account": "uje545yx4ip",
    "alive": true
   },
@@ -197,7 +197,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded10.gykisjdcth.top",
-   "password": "df3ced51-29d6-49de-8b30-94b0dc15383b",
+   "password": "8e06ea40-644a-4c87-80e5-78cb707ac068",
    "account": "uje545yx4ip",
    "alive": true
   },
@@ -211,7 +211,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded15.gykisjdcth.top",
-   "password": "291f8b00-07f8-4c29-a6f2-bbf8ae37bb1c",
+   "password": "c3b50e20-67c3-4dcc-977c-39cf0d64faca",
    "account": "uje545yx4ip",
    "alive": true
   },
@@ -225,7 +225,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded5.gykisjdcth.top",
-   "password": "d7d6d6af-0c25-484c-9fc8-fe3593f0c714",
+   "password": "40014307-16b7-4b96-8338-97566739e150",
    "account": "uo60tny1bg",
    "alive": true
   },
@@ -239,7 +239,7 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded11.gykisjdcth.top",
-   "password": "1196b5ec-7865-4271-8892-9381adb27543",
+   "password": "04720a94-59dd-48a6-beb7-ca2672961e31",
    "account": "uo60tny1bg",
    "alive": true
   },
@@ -253,27 +253,27 @@
    "proto": "anytls",
    "security": "tls",
    "sni": "noded16.gykisjdcth.top",
-   "password": "248b83d4-3e2f-4d0b-b53a-2178c5bcbe21",
+   "password": "79b66c46-6bdc-41bb-9dbb-6b54ae94025e",
    "account": "uo60tny1bg",
    "alive": true
   }
  ],
  "live_uris": [
-  "anytls://3b3ac02c-cdf6-4895-9607-963312e49954@38.145.223.130:10022/?sni=noded1.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD1",
-  "anytls://60d086ab-7959-4ee3-83ff-0a243c8f9085@23.224.250.51:10022/?sni=noded6.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDF1",
-  "anytls://707e598c-18c7-4ae5-a874-37e6a85e3c29@185.173.225.34:10022/?sni=noded7.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG1",
-  "anytls://84fded0c-d072-4c33-8f1d-b8ede3f8d8d1@185.173.225.66:10022/?sni=noded12.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH1",
-  "anytls://61c3b864-2664-4110-b763-b20970bf788a@38.145.223.131:10022/?sni=noded2.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD2",
-  "anytls://39795af3-8874-4a79-8345-95791cbe560d@185.173.225.35:10022/?sni=noded8.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG2",
-  "anytls://c404b3f5-3f2b-4fe6-857a-6530beb8b720@185.173.225.67:10022/?sni=noded13.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH2",
-  "anytls://41f0227a-2e9c-4b45-9dd1-7b8dfe271e32@38.145.223.132:10022/?sni=noded3.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD3",
-  "anytls://591cdeb2-2e3a-4a45-94a8-a3a8427b0226@185.173.225.36:10022/?sni=noded9.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG3",
-  "anytls://01ccbcc7-e9a6-442a-b790-b3a211631f86@185.173.225.68:10022/?sni=noded14.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH3",
-  "anytls://2d2197fc-da6f-4b21-aef2-5d5ce5d1e99d@38.145.223.133:10022/?sni=noded4.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD4",
-  "anytls://df3ced51-29d6-49de-8b30-94b0dc15383b@185.173.225.37:10022/?sni=noded10.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG4",
-  "anytls://291f8b00-07f8-4c29-a6f2-bbf8ae37bb1c@185.173.225.69:10022/?sni=noded15.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH4",
-  "anytls://d7d6d6af-0c25-484c-9fc8-fe3593f0c714@38.145.223.134:10022/?sni=noded5.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD5",
-  "anytls://1196b5ec-7865-4271-8892-9381adb27543@185.173.225.38:10022/?sni=noded11.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG5",
-  "anytls://248b83d4-3e2f-4d0b-b53a-2178c5bcbe21@185.173.225.70:10022/?sni=noded16.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH5"
+  "anytls://1dc7fdaa-5a0c-4908-a12a-ead58d6f6e89@38.145.223.130:10022/?sni=noded1.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD1",
+  "anytls://79d88f3f-9fc6-4ee3-b63a-db1075769a64@23.224.250.51:10022/?sni=noded6.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDF1",
+  "anytls://7cdad643-6c6b-4b80-8f87-c2d7d21b846c@185.173.225.34:10022/?sni=noded7.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG1",
+  "anytls://8ff80dcf-74f6-40f2-8c7e-e83f950f320b@185.173.225.66:10022/?sni=noded12.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH1",
+  "anytls://5c4c0e2e-6671-40ec-8f38-56a6dee222c8@38.145.223.131:10022/?sni=noded2.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD2",
+  "anytls://d58868e2-bb44-4c2a-980d-f9c8a12238ee@185.173.225.35:10022/?sni=noded8.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG2",
+  "anytls://c7888e85-dd48-4abc-845a-4a7e3098b820@185.173.225.67:10022/?sni=noded13.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH2",
+  "anytls://7f80d157-9836-4520-a58a-ea59cf603657@38.145.223.132:10022/?sni=noded3.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD3",
+  "anytls://a4fa6df2-9171-4d5f-9140-9a04e9b52f5e@185.173.225.36:10022/?sni=noded9.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG3",
+  "anytls://cad675e6-793c-4fad-9e23-6b8039b797e7@185.173.225.68:10022/?sni=noded14.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH3",
+  "anytls://7b9bd7ad-f1d0-45dc-8981-9d79419d2ed1@38.145.223.133:10022/?sni=noded4.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD4",
+  "anytls://8e06ea40-644a-4c87-80e5-78cb707ac068@185.173.225.37:10022/?sni=noded10.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG4",
+  "anytls://c3b50e20-67c3-4dcc-977c-39cf0d64faca@185.173.225.69:10022/?sni=noded15.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH4",
+  "anytls://40014307-16b7-4b96-8338-97566739e150@38.145.223.134:10022/?sni=noded5.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDD5",
+  "anytls://04720a94-59dd-48a6-beb7-ca2672961e31@185.173.225.38:10022/?sni=noded11.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDG5",
+  "anytls://79b66c46-6bdc-41bb-9dbb-6b54ae94025e@185.173.225.70:10022/?sni=noded16.gykisjdcth.top&insecure=0#%E7%BE%8E%E5%9B%BDH5"
  ]
 }
